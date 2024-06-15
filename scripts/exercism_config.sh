@@ -1,4 +1,8 @@
 #!/bin/bash
 source .env
 
-exercism configure --token=$EXERCISM_TOKEN
+WORKSPACE=$(pwd)/src/exercism
+
+exercism configure \
+    --token=$EXERCISM_TOKEN \
+    --workspace=$WORKSPACE
