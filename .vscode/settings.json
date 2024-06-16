@@ -1,4 +1,7 @@
 {
+    "terminal.integrated.env.windows": {
+        "path": "${cwd}/lua_modules/bin;${env:PATH}"
+    },
     "terminal.integrated.profiles.windows": {
         "Git Bash": {
             "path": "C:\\PROGRA~1\\Git\\bin\\bash.exe",
