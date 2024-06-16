@@ -1,0 +1,12 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "Git Bash": {
+            "path": "C:\\PROGRA~1\\Git\\bin\\bash.exe",
+            "args": [
+                "--init-file",
+                "./scripts/terminal_startup.sh"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
