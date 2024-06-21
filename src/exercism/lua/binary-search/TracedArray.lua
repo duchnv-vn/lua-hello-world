@@ -8,7 +8,6 @@ return function(array)
         self.access_count = self.access_count + 1
         accessed[i] = true
       end
-      -- print(self.access_count, i, accessed[i], array[i])
       return array[i]
     end,
     __len = function()
