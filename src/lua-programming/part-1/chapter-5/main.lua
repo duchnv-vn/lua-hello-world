@@ -52,4 +52,4 @@ local function excercise_5_6(sequence)
     print("5.6 result: " .. is_valid_sequence)
     return is_valid_sequence
 end
-excercise_5_6({ 1, 2, 3, 4, 5 })
+-- excercise_5_6({ 1, 2, 3, 4, 5 })
