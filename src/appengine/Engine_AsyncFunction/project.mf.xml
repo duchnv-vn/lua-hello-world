@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest>
+    <application name="Engine_AsyncFunction">
+        <crown name="Engine_AsyncFunction">
+            <desc>user script</desc>
+            <serves>
+                <function name="requestData">
+                    <trait>released</trait>
+                </function>
+                <function name="triggerGetData">
+                    <trait>released</trait>
+                </function>
+            </serves>
+        </crown>
+        <meta key="author">Dinhanh Dao</meta>
+        <meta key="version">1.0</meta>
+        <meta key="priority">low</meta>
+        <meta key="copy-protected">false</meta>
+        <meta key="read-protected">false</meta>
+        <entry default="main.lua" path="scripts"/>
+    </application>
+</manifest>
