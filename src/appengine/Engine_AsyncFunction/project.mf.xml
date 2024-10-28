@@ -4,8 +4,9 @@
         <crown name="Engine_AsyncFunction">
             <desc>user script</desc>
             <serves>
-                <function name="requestData">
+                <function name="requestData_NUM">
                     <trait>released</trait>
+                    <param desc="" multiplicity="1" name="count" type="int"/>
                 </function>
                 <function name="triggerGetData">
                     <trait>released</trait>
