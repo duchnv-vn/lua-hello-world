@@ -45,3 +45,6 @@ luac.out
 /lua.bat
 /lua_modules
 /.luarocks
+
+lock
+workingdir.settings
